@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+width: 70%;
+height: 50vh;
+margin: 3vh auto ;
+border: 1px solid white;
+background-color: #ededed;
+position: relative;
+
+}
+
+.heart {
+display: none;
+position: absolute;
+bottom: 0;
+right: 40%;
+width: 50px;
+}
+
+.apparizione:hover .heart{
+display: block;
+
+ }
+
+
+.block {
+width: 33.33%;
+height: 100%;
+/* background-color: blue; */
+border: 1px solid white;
+position: absolute;
+
+}
+
+.discount {
+    width: 15%;
+    height: 5%;
+    background-color: green;
+    position: relative;
+    left: 85%;
+}
+
+
+
+.foto{
+    width: 30vh;
+    height: 43vh;
+    position: relative;
+    left: 10%;
+}
+
+
+
+.block:nth-child(2){
+    left: 33.33%;
+}
+
+.block:nth-child(3){
+    right: 0;
+
+}
